@@ -10,6 +10,7 @@ public class TestGroup{
     Person person3 = new Person(3, "Rui");
 
     Group group1 = new Group(person1);
+
     group1.addMember(person2);
     group1.addMember(person3);
 }
