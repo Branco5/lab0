@@ -39,4 +39,8 @@ public class Group {
                 ", other members=" + members +
                 '}';
     }
+
+    public boolean hasMember(Person p){
+        return members.contains(p);
+    }
 }
